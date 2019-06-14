@@ -5,7 +5,7 @@ def get_first_name_of_season_winner(data, season)
    contestant.each do |key, val|
      if val == "Winner"
      binding.pry 
-       return contestant[:name]
+       return contestant["name"]
       end
     end
   end
