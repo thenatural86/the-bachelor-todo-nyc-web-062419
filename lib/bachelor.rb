@@ -6,6 +6,7 @@ def get_first_name_of_season_winner(data, season)
      return [contestant][:name]
       binding.pry 
     end
+    end
   end
 end
 
