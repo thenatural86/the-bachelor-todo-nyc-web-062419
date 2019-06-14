@@ -12,7 +12,7 @@ end
 
 
 def get_contestant_name(data, occupation)
-  data["occupation"].each do |key, val|
+  data.each do |key, val|
      binding.pry 
   end
 end
