@@ -13,6 +13,7 @@ end
 
 def get_contestant_name(data, occupation)
   data.each do |season, val|
+    season.each do |key, val|
      binding.pry 
   end
 end
