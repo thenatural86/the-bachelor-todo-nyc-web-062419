@@ -43,6 +43,7 @@ def get_occupation(data, hometown)
       person.each do |key, val|
         if val == hometown
           retunr person
+        end
       end
     end
   end
