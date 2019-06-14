@@ -5,7 +5,6 @@ def get_first_name_of_season_winner(data, season)
    contestant.each do |key, val|
      if val == "Winner"
        return contestant["name"].split(' ')[0]
-     binding.pry 
       end
     end
   end
@@ -13,7 +12,9 @@ end
 
 
 def get_contestant_name(data, occupation)
-  
+  data[occupation].each do |key, val|
+     binding.pry 
+    
 end
 
 def count_contestants_by_hometown(data, hometown)
